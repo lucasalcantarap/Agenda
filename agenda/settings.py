@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-^p*=s)l4cx@rr)qnmde&^=03^kpt!&)7hu=cq6!@ci(ke^au6_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://agenda-simples.herokuapp.com/']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -127,4 +127,4 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-django_heroku.settings(local())
+

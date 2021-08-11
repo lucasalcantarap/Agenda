@@ -2,12 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Agenda</title>
-</head>
+        <title>Agenda</title>
+   <style>
+   html {
+   background-color:lightblue;
+   font-family: Arial, Helvetica, sans-serif;
+   }
+   h1 {
+   text-align:center;
+   }
+
+
+input[type=text]{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+input[type=password]{
+width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+
+}
+
+  button {
+  background-color: #4CAF50; /* Green */
+  border-radius:10px;
+  color: white;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover{
+ background-color: #45a049;
+}
+
+</style>
+   </head>
 <body>
     <h1>Login</h1>
     <form action="submit" method="POST">{% csrf_token %}
-        <div align="center">
+        <div class="login" align="center">
             <label>Usuário:</label>
             <input type="text" name="username">
             <label>Password:</label>
