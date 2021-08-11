@@ -39,5 +39,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-Deploy: lucasalcantaraneves.pythonanywhere.com
+Deploy: https://lucasalcantaraneves.pythonanywhere.com
 
